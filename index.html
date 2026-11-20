@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#252c21">
+  <meta name="description" content="放学后的教室里，有人留下了一本书。选一张书签，走进故事，再把一本书留给下一位读者。">
+  <link rel="preload" href="assets/classroom.webp" as="image">
+  <link rel="stylesheet" href="style.css">
+  <script src="story.js" defer></script>
+  <title>同学，你的书掉了｜世界读书日</title>
+</head>
+<body>
+  <div class="frame">
+    <header class="masthead">
+      <span class="mastmark"><span aria-hidden="true">✳</span> 世界读书日</span>
+      <span id="progress" class="progress" aria-label="第 1 页，共 9 页">01 / 09</span>
+    </header>
+    <main id="page" aria-label="同学，你的书掉了"></main>
+    <footer class="footer">
+      <button id="back" class="back" type="button" hidden>上一页</button>
+      <span id="footer-date">4 月 23 日</span>
+      <div class="progress-line" aria-hidden="true"><i id="progress-line"></i></div>
+    </footer>
+  </div>
+  <noscript>请允许浏览器运行 JavaScript，再开启这本书。</noscript>
+</body>
+</html>
